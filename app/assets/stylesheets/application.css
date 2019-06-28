@@ -52,4 +52,8 @@ aside#sidebar {
 /* メニューバーのリンク */
 nav.menubar a { text-decoration: none; }
 
-/* メニューバー
+/* メニューバーのリンク（未訪問）*/
+nav.menubar a:link { color: #ccc; }
+
+/* メニューバーのリンク（訪問済） */
+nav.menubar a:visited { color: #ccc; }
