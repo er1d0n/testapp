@@ -1,4 +1,6 @@
 class Member < ApplicationRecord
+  has_secure_password validation: false
+
   #会員情報の検証(背番号)
   validates :number, presence: true,
    numericality: {

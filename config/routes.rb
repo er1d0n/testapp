@@ -9,4 +9,6 @@ Rails.application.routes.draw do
     #コントローラーの中に会員の検索を行う
     get "search", on: :collection
   end
+
+  resource :session, only: [:create, :destroy]
 end
